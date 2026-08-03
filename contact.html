@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — Solive Oil</title>
+<meta name="description" content="Get in touch with Solive Oil — customer care, distribution enquiries, and our Nsukka facility address.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html">
+    <img src="/images/logo.png" alt="Solive Oil" width="120">
+</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Get In Touch</span>
+      <h1>We'd love to hear from you</h1>
+      <p>Questions, bulk orders, or distribution enquiries — reach our team directly.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container hero-grid" style="align-items:start;">
+      <div>
+        <h2 class="mt-0">Send us a message</h2>
+        <form id="contact-form" novalidate>
+          <div class="form-field">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+            <span class="form-error">Please enter your name.</span>
+          </div>
+          <div class="form-field">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            <span class="form-error">Please enter a valid email address.</span>
+          </div>
+          <div class="form-field">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option>General Enquiry</option>
+              <option>Bulk / Wholesale Order</option>
+              <option>Become a Distributor</option>
+              <option>Feedback</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="How can we help?" required></textarea>
+            <span class="form-error">Please enter a short message.</span>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <div class="form-success" id="form-success">Thanks for reaching out — our team will get back to you shortly.</div>
+        </form>
+        <!-- Note: this form validates client-side only. Connect it to a service
+             like Formspree, EmailJS, or a serverless function to actually
+             deliver messages to customercare@soliveoil.com -->
+      </div>
+
+      <div>
+        <h2 class="mt-0">Contact details</h2>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">📍</div>
+          <div>
+            <h3 style="margin-bottom:4px; font-size:1.05rem;">Facility Address</h3>
+            <p style="margin:0;">Umakashi Industrial Layout, Nkpunano,<br>Nsukka, Enugu State, Nigeria</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">✉</div>
+          <div>
+            <h3 style="margin-bottom:4px; font-size:1.05rem;">Email</h3>
+            <p style="margin:0;"><a href="mailto:customercare@soliveoil.com">customercare@soliveoil.com</a></p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">📞</div>
+          <div>
+            <h3 style="margin-bottom:4px; font-size:1.05rem;">Phone</h3>
+            <p style="margin:0;"><a href="tel:+2349063300249">+234 906 330 0249</a></p>
+          </div>
+        </div>
+
+        <div class="map-embed" style="margin-top:28px;">
+          <iframe
+            src="https://www.google.com/maps?q=Nsukka,Enugu+State,Nigeria&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Map showing Solive Oil facility location in Nsukka, Enugu State">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Solive<span>Oil</span></div>
+        <p style="opacity:0.75; font-size:0.92rem; max-width:32ch;">Triple-filtered, cholesterol-free cooking oil, made in Nsukka, Enugu State, Nigeria.</p>
+        <div class="social-row">
+          <a href="#" class="social-icon" aria-label="Facebook">f</a>
+          <a href="#" class="social-icon" aria-label="Instagram">ig</a>
+          <a href="#" class="social-icon" aria-label="Twitter/X">x</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Distributors</a></li>
+          <li><a href="about.html">Our Story</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:customercare@soliveoil.com">customercare@soliveoil.com</a></li>
+          <li><a href="tel:+2349063300249">+234 906 330 0249</a></li>
+          <li>Umakashi Industrial Layout,<br>Nkpunano, Nsukka,<br>Enugu State, Nigeria</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Solive Oil. All rights reserved.</span>
+      <span>Made with care in Nsukka, Nigeria.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
